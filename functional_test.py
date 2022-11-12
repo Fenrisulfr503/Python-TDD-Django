@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 import unittest
 
+
 class NewVisitorTest(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Chrome()
@@ -49,5 +50,7 @@ class NewVisitorTest(unittest.TestCase):
         # 页面再次更新，她的清单中显示了这两个待办事项
         # ...
 
+
 if __name__ == '__main__':
     unittest.main(warnings='ignore')
+
