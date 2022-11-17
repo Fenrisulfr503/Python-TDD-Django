@@ -1,4 +1,4 @@
-superlists/superlists/__pycache__/*
-superlists/lists/__pycache__/*
-superlists/lists/migrations/__pycache__/*
-superlists/functional_tests/__pycache__/*
+superlists/__pycache__/*
+lists/__pycache__/*
+lists/migrations/__pycache__/*
+functional_tests/__pycache__/*
