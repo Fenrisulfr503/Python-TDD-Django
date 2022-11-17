@@ -69,15 +69,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'superlists.wsgi.application'
 
-print(os.path.join(BASE_DIR, './database/db.sqlite3'))
-
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, './database/db.sqlite3'),
+        'NAME': os.path.abspath(os.path.join(BASE_DIR, 'database/db.sqlite3')),
     }
 }
 
