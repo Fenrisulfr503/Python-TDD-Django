@@ -105,7 +105,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
     def test_layout_and_styling(self):
         # 伊迪丝访问首页
         self.browser.get(self.live_server_url)
-        self.browser.set_window_size(1024, 768)
+        self.browser.set_window_size(128, 720)
         # 她看到输入框完美的显示
         
         inputbox = self.browser.find_element('id', 'id_new_item')
